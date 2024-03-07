@@ -4,6 +4,7 @@
 
 Cryptomania is a Ruby Command Line Interface (CLI) gem that allows players to virtually invest money in the past and check on their future returns. The goal is to double the investment and see if the player becomes successful in the virtual crypto world.
 
+![Demo](./Cryptomania.gif)
 
 ## Installation
 

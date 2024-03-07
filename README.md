@@ -1,39 +1,42 @@
 # Cryptomania
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cryptomania`. To experiment with that code, run `bin/console` for an interactive prompt.
+[Get It Here](https://rubygems.org/gems/cryptomania)
 
-TODO: Delete this and the text above, and describe your gem
+Cryptomania is a Ruby Command Line Interface (CLI) gem that allows players to virtually invest money in the past and check on their future returns. The goal is to double the investment and see if the player becomes successful in the virtual crypto world.
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
+1. Install Ruby on your system if you haven't already. You can download it from [ruby-lang.org](https://www.ruby-lang.org/).
 
-```ruby
-gem 'cryptomania'
-```
+2. Install the Cryptomania gem using the following command:
 
-And then execute:
+   ```bash
+   gem install cryptomania
 
-    $ bundle install
 
-Or install it yourself as:
+## Features
 
-    $ gem install cryptomania
+1. **Setup Name:** Set up your name for the start, and get an initial 10k$ as an investing amount.
 
-## Usage
+2. **Travel back to the past:** Choose a date in past to travel back to that day.
 
-TODO: Write usage instructions here
+3. **List Cryptocurries:** Get a list of popular cryptocurrencies of that time.
 
-## Development
+4. **Read:** Read about the cryptocurrencies.
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+5. **Invest:** Invest the 10k$ in multiple cryptos.
+   
+6. **Travel back to the future:** Choose any date in the future to checkout.
+   
+7. **Check your investment:** Check your investment worth that date.
+   
+8. **Win:** If you have managed to double your investment, you WIN!!
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Technologies Used
 
-## Contributing
+- **Ruby:** The CLI app is completely build using Ruby Programming Language.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cryptomania.
+- **Rubygems:** The app is published as a Ruby gem in rubygem.org.
 
-## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
